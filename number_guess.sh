@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PSQL="psql --username=freecodecamp --dbname=number_guess -t --no-align -c"
-
+c# Connect to the number_guess PostgreSQL database
 RANDOM_NUMBER=$((1 + RANDOM % 1000))
 
 echo "Enter your username:"
